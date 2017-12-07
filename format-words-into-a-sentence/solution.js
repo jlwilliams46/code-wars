@@ -1,0 +1,1 @@
+function formatWords(r){return r?r.join(" ").trim().replace(/(\s+)/g,", ").replace(/, (\w+$)/g," and $1"):""}
